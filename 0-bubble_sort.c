@@ -11,7 +11,7 @@
 void bubble_sort(int *array, size_t size)
 {
     size_t i, blen = size;
-    boolean bub = false;
+    bool bub = false;
 
     /* Check if the array is NULL or has fewer than 2 elements */
     if (array == NULL || size < 2)
